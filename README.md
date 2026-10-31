@@ -12,11 +12,11 @@ The objective of this project is to design and implement a relational database u
 
 ## ❓ Problem Statement
 
-•  Design a relational database to organize social media users, posts, followers, likes, and comments.
-•  Retrieve user and post details using SQL queries and filtering conditions.
-•  Identify active users based on their post counts and follower activities.
-•  Analyze post engagement by calculating total likes and comments for each post.
-•  Evaluate user interactions by identifying users who liked or commented on posts.
+•  Design a relational database to organize social media users, posts, followers, likes, and comments.  
+•  Retrieve user and post details using SQL queries and filtering conditions.  
+•  Identify active users based on their post counts and follower activities.  
+•  Analyze post engagement by calculating total likes and comments for each post.  
+•  Evaluate user interactions by identifying users who liked or commented on posts.  
 •  Implement functions, subqueries, stored procedures, views, and triggers to simplify database operations and automate notifications.
 
 
@@ -92,7 +92,7 @@ An additional **Notifications** table is created to store automated notification
 - Implemented a trigger to automatically insert notification records when a user likes a post.
 
 
-##📊 **Final Summary & Insights**
+## 📊 **Final Summary & Insights**
 
 This project analyzes social media engagement using MySQL based on sample data containing **5 users, 8 posts, 20 likes, 16 comments, and 5 follower relationships**. Descriptive Analysis: Identified **Varun** as the most active user with 3 posts, followed by **Kala** with 2 posts. Analyzed individual post engagement: Post ID 1 – **"Creating memorable meals"** received 3 likes and 2 comments (5 interactions); Post ID 2 – No caption received 2 likes and 1 comment (3 interactions); Post ID 3 – **"Every song is a piece of my heart"** received 4 likes and 3 comments (7 interactions); Post ID 4 – **"Healthy habits, happy life"** received 2 likes and 2 comments (4 interactions); Post ID 5 – **No caption** received 1 like and 1 comment (2 interactions); Post ID 6 – **"deleciuos dinner"** received 2 likes and 2 comments (4 interactions); Post ID 7 – **"Melody hits"** received 3 likes and 2 comments (5 interactions); and Post ID 8 – **"AR Rahman hits"** received 3 likes and 3 comments (6 interactions). Diagnostic Analysis: Identified that Post ID 3 generated the highest engagement with 7 interactions, followed by Post ID 8 with 6 interactions, whereas Post ID 5 recorded the lowest engagement with 2 interactions, highlighting variations in user interactions across posts. Predictive Analysis: Posts receiving higher likes and comments may have the potential to attract more interactions in the future, while posts with lower engagement may require improvements in content. Active users with consistent posting activities may continue to contribute to overall engagement. Prescriptive Analysis: Encourage users to publish engaging and relevant content regularly, improve interaction through likes and comments, and focus on improving posts with lower engagement. Monitor active users and follower activities to strengthen user participation and overall social media engagement.
 
